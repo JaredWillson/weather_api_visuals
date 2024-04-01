@@ -11,7 +11,7 @@ The second notebook in the WeatherPy directory is VacationPy.ipynb. This noteboo
 * Cities where the wind speed was less than 7 m/s
 This dramatically reduces the number of likely destination spots for a quick vacation. Note that current weather is not necessarily indicative of future weather, so it would be a good idea to check the forecast for any candidate destinations you are considering. Finally, an API call to geoapify.com is placed in order to collect hotel information for the destination cities. The first hotel found within 10km of the center of the destination city is identified. A new visualization is generated that adds hotel name and country abreviation to the "hover over" functionality in the map.
 
-![Candidate Destinations](output_data/destination_map.png)
+![Candidate Destinations](WeatherPy/output_data/destination_map.png)
 
 ### API's Used ###
 Note that there you will need two API keys in order to utilize these notebooks. The first is a weather_api_key from OpenWeather.  One can generate an API key by following the instructions at:
