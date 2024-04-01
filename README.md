@@ -1,4 +1,4 @@
-# weather_api_visuals
+# Weather API Visuals
 This repository includes two Jupyter notebooks in the directory WeatherPy. The first of these notebooks is WeatherPy.ipynb. The code in this notebook will generate a random set of 1,500 separate longitudes and latitudes. It then queries the citipy library to find the nearest city by name to these random longitudes and latitudes. It creates a list of the unique city values from the random locations. Since the citipy database is somewhat limited, approximately 600 unique cities will likely be generated. 
 
 The notebook then iterates through the list of cities, calling the openweathermap.org API to collect current weather for the individual cities. This includes, lat/long data, high temp for the day, relative humidity, percent cloud cover, wind speed, country, and a time stamp. Results are stored in a dataframe. If the city name is not found in openweathermap, then the city is skipped. This is accomplished using "try" and "except" functionality. The dataframe is then saved as a CSV for use in the next Jupyter notebook.
